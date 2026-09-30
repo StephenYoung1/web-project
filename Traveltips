@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Alpine Trips</title>
+</head>
+<body>
+
+
+<header>
+    <!-- Nav bar and logo ADD LOGO IMAGE LATER, logo will have website name -->
+  <img src="images\logo.png" alt="Logo" width="100" height="100">
+  <nav>
+    <a href="C:\Users\steph\Desktop\web project\index.html">Home</a>
+    <a href="#">Trips</a>
+    <a href="#">Travel tips</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+
+
+<section>
+ <!-- faq section about differnt tips, each tip has a name and you click to reveal each tip-->
+    <h4>FAQ</h4>
+<details>
+  <summary>Tip 1</summary>
+  <p>Tip info<strong>Important info</strong></p>
+</details>
+<details>
+  <summary>Tip 1</summary>
+  <p>Tip info<b>some bold text</b></p>
+</details>
+<details>
+  <summary>Tip 1</summary>
+  <p>Tip info<i>Italics in this one</i></p>
+</details>
+</section>
+
+
+<footer>
+    <p>This website was made by Stephen Young</p>
+    <p>last edited 30/09/26</p>
+</footer>
+
+</main>
+
+</body>
