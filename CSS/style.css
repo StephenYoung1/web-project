@@ -1,0 +1,62 @@
+/*background for the main page card section*/
+.mainPageBackground { 
+    background-image: url("../images/MainPageBackground.jpg"); 
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat; 
+}
+
+.cardMainPage {
+    /*background-image: radial-gradient(#ffffff 0%, #dee9e8 100%);*/
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+
+#aboutUs{
+    background-color: aquamarine;
+    color: red;
+    text-decoration: underline overline;
+}
+
+#skiLiftImage{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    padding: 10px 5%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#navBar{
+    background-color: #1E3A60;
+}
+a {
+    font-size: 2em;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: white;
+  background-color: blue;
+}
+
+a:active{
+  color: gray;
+}
+
+body {
+    font-family: sans-serif;
+}

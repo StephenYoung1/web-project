@@ -1,90 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alpine Trips</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alpine Trips</title>
+    <link rel="stylesheet" type="text/css" href="CSS\style.css">
 </head>
+
 <body>
 
+    <div class="mainPageBackground">
+        <header>
+            <!-- Nav bar and logo ADD LOGO IMAGE LATER, logo will have website name -->
+            <img src="images\logo.png" alt="Logo" width="100" height="100">
+            <nav>
+                <ul id="navBar">
+                    <a href="index.html">Home</a>
+                    <a href="#">Trips</a>
+                    <a href="traveltips.html">Travel tips</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Contact</a>
+                </ul>
+            </nav>
+        </header>
 
-<header>
-    <!-- Nav bar and logo ADD LOGO IMAGE LATER, logo will have website name -->
-  <img src="images\logo.png" alt="Logo" width="100" height="100">
-  <nav>
-    <a href="">Home</a>
-    <a href="#">Trips</a>
-    <a href="Traveltips.html">Travel tips</a>
-    <a href="about.html">About</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+        <main>
+            <!--Rotating cards showing different trips you can go on with pictures and a little text about each trip-->
+            <section>
+                <!--buttons that will move the cards along to the next one in the list-->
+                <button type="button">backward arrow in future</button>
+                <!--a card that will hold an image and a header with text below it  -->
+                <div class="cardMainPage">
+                    <img src="images\sam-bark-RpDAZgYJL9I-unsplash.jpg" alt="Man with skis looking over moutain range"
+                        width="250" height="250">
+                    <div>
+                        <h3>The Alps</h3>
+                        <p>Go skiing in the alps</p>
+                    </div>
+                </div>
+                <!--buttons that will move the cards along to the next one in the list-->
+                <button type="button">forward arrow in future</button>
+            </section>
 
-<main>
-<!--Rotating cards showing different trips you can go on with pictures and a little text about each trip-->
-<section>
-    <!--buttons that will move the cards along to the next one in the list-->
-<button type="button">backward arrow in future</button>
-    <!--a card that will hold an image and a header with text below it  -->
-<div>
-      <img src="images\sam-bark-RpDAZgYJL9I-unsplash.jpg" alt="Man with skis looking over moutain range" width="250" height="250">
-    <div>
-        <h3>The Alps</h3>
-        <p>Go skiing in the alps</p>
     </div>
-</div>
- <!--buttons that will move the cards along to the next one in the list-->
-<button type="button">forward arrow in future</button>
-</section>
 
-<!--info about the company in an article-->
- <section>
-    <article>
-    <h2>Company info header</h2>
-    <p>Info text about the company goes here.</p>
-    <p>More info text goes here.</p>5
-    </article>
-</section>
+    <!--info about the company in an article-->
+    <section>
+        <article>
+            <h2>Company info header</h2>
+            <p>Info text about the company goes here.</p>
+            <p>More info text goes here.</p>5
+        </article>
+    </section>
 
-<!--another rotating cards page telling users about previus customers stories with an imageu and the story-->
-<section>
-    <!--buttons that will move the cards along to the next one in the list-->
-<button type="button">backward arrow in future</button>
-    <!--a card that will hold an image and a header with text below it  -->
-<div>
-      <img src="images\CustomerCard1.jpg" alt="a previous customer" width="250" height="250">
-    <div>
-        <h4><q>I had a great time!</q></h4>
-        <p>I saw the alps</p>
-    </div>
-</div>
- <!--buttons that will move the cards along to the next one in the list-->
-<button type="button">forward arrow in future</button>
+    <!--another rotating cards page telling users about previus customers stories with an imageu and the story-->
+    <section>
+        <!--buttons that will move the cards along to the next one in the list-->
+        <button type="button">backward arrow in future</button>
+        <!--a card that will hold an image and a header with text below it  -->
+        <div class="cardMainPage">
+            <img src="images\CustomerCard1.jpg" alt="a previous customer" width="250" height="250">
+            <div>
+                <h4><q>I had a great time!</q></h4>
+                <p>I saw the alps</p>
+            </div>
+        </div>
+        <!--buttons that will move the cards along to the next one in the list-->
+        <button type="button">forward arrow in future</button>
 
-</section>
+    </section>
 
-<section>
- <!-- faq section about info in the webside, uses detail tag to hide info until clicked-->
-    <h4>FAQ</h4>
-<details>
-  <summary>Question 1</summary>
-  <p>lots of info about question 1</p>
-</details>
-<details>
-  <summary>Question 2</summary>
-  <p>lots of info about question 2</p>
-</details>
-<details>
-  <summary>Question 3</summary>
-  <p>lots of info about question 3</p>
-</details>
-</section>
+    <section>
+        <!-- faq section about info in the webside, uses detail tag to hide info until clicked-->
+        <h4>FAQ</h4>
+        <details>
+            <summary>Question 1</summary>
+            <p>lots of info about question 1</p>
+        </details>
+        <details>
+            <summary>Question 2</summary>
+            <p>lots of info about question 2</p>
+        </details>
+        <details>
+            <summary>Question 3</summary>
+            <p>lots of info about question 3</p>
+        </details>
+    </section>
 
-<footer>
-    <p>This website was made by Stephen Young</p>
-    <p>last edited 30/09/26</p>
-</footer>
+    <footer>
+        <p>This website was made by Stephen Young</p>
+        <p>last edited 30/09/26</p>
+    </footer>
 
-</main>
+    </main>
 
 </body>
