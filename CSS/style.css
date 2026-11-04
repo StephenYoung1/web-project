@@ -10,15 +10,16 @@
     background-image: radial-gradient(#ffffff 0%, #dee9e8 100%);
     /*background-color: whitesmoke;*/
     text-align: center;
-    text-shadow: 2px 2px red;
-    outline-color: red;
-    width: 75%;
+    outline-color: blue;
+    width: 70%;
     height: 50%;
     padding: 0.5em;
     margin: 0.5em;
-    border: 0.01em solid red;
+    border: 0.01em solid blue;
+    margin-left: 15%;
 
 }
+
 
 #aboutUs{
     background-color: aquamarine;
@@ -30,6 +31,10 @@
     border-radius: 50%;
     width: 200px;
     height: 300px;
+}
+
+body {
+    margin: 0%;
 }
 
 header {
