@@ -9,7 +9,7 @@
 .cardMainPage {
     background-image: radial-gradient(#ffffff 0%, #dee9e8 100%);
     /*background-color: whitesmoke;*/
-    text-align: center;
+    text-align: left;
     outline-color: blue;
     width: 70%;
     height: 50%;
@@ -17,14 +17,16 @@
     margin: 0.5em;
     border: 0.01em solid blue;
     margin-left: 15%;
+    border-radius: 2%;
 
 }
 
+p{
+    font-size: 1rem;
+}
 
 #aboutUs{
-    background-color: aquamarine;
-    color: red;
-    text-decoration: underline overline;
+    background-color: #dee9e8;
 }
 
 #skiLiftImage{
@@ -71,4 +73,10 @@ a:active{
 
 body {
     font-family: sans-serif;
+}
+
+footer{
+
+    color: #ffffff;
+    background-color: #1E3A60;
 }
