@@ -48,6 +48,7 @@ header {
 }
 
 #navBar{
+    padding: 1%;
     background-color: #1E3A60;
 }
 a {
