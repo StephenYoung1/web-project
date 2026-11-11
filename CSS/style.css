@@ -6,6 +6,16 @@
     background-repeat: no-repeat; 
 }
 
+details{
+    padding-bottom: 2%;
+
+}
+
+summary{
+    font-size: 1.5rem;
+}
+
+
 .cardMainPage {
     background-image: radial-gradient(#ffffff 0%, #dee9e8 100%);
     /*background-color: whitesmoke;*/
@@ -23,6 +33,10 @@
 
 p{
     font-size: 1rem;
+}
+
+h2{
+    font-size: 2.3rem;
 }
 
 #aboutUs{
